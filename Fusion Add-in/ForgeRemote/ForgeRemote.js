@@ -2,7 +2,7 @@
 //Description-Chat bot for Autodesk Forge
 
 //socket server 
-var socketServerURL = "http://forge-miwaniza.c9users.io:8080";
+var socketServerURL = "https://forge-remote.herokuapp.com/hook";
 var socketObj = null; 
 
 //command
