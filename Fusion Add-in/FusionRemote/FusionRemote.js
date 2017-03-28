@@ -2,12 +2,12 @@
 //Description-Chat bot for Autodesk Forge
 
 //socket server 
-var socketServerURL = "https://forge-remote.herokuapp.com/hook";
+var socketServerURL = "https://fusion-remote.herokuapp.com/";
 var socketObj = null; 
 
 //command
-var commandIdOnQAT  = 'forgeRemote';
-var commandIdOnPanel  = 'forgeRemote';
+var commandIdOnQAT  = 'fusionRemote';
+var commandIdOnPanel  = 'fusionRemote';
 
 //intial value before driving the parameter
 var initialV;
@@ -79,8 +79,8 @@ function run(context) {
 
     var ui;
     try {
-        var commandName = 'Forge Remote';
-        var commandDescription = 'Forge Remote';
+        var commandName = 'Fusion Remote';
+        var commandDescription = 'Fusion Remote';
         var commandResources = './resources';
         
         var app = adsk.core.Application.get();

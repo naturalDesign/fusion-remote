@@ -4,7 +4,7 @@
 	"id":	"aafe85a9-0a7e-484f-b5ea-7137086d3a17",
 	"author":	"Dmytro Yemelianov",
 	"description":	{
-		"":	"Chat bot for Autodesk Forge"
+		"":	"Chat bot for Autodesk Fusion"
 	},
 	"version":	"0.1",
 	"runOnStartup":	false,

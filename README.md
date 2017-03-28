@@ -1,2 +1,2 @@
-# forge-remote
-Chatbot for Autodesk Forge
+# fusion-remote
+Chatbot for Autodesk Fusion
