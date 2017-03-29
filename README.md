@@ -58,7 +58,7 @@ Creates new project.
 
 ### Samples
 
-`I'd like to open a new project file. Index as Mark 2`
+`I'd like to open a new project file. Indexed as Mark 2`
 
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=DZaAFADoF1M" target="_blank"><img src="http://img.youtube.com/vi/DZaAFADoF1M/0.jpg" alt="viewer-remote for Autodesk Forge Viewer" width="512" height="384" border="10" /></a>
 
