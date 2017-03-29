@@ -48,6 +48,21 @@ Remote control for Autodesk Fusion 360. Allows to interact with viewer using Nat
 
 # Supported commands
 
+## Creating projects
+
+Creates new project.
+
+### Syntax
+
+`create project`
+
+### Samples
+
+`I'd like to open a new project file. Index as Mark 2`
+
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=DZaAFADoF1M" target="_blank"><img src="http://img.youtube.com/vi/DZaAFADoF1M/0.jpg" alt="viewer-remote for Autodesk Forge Viewer" width="512" height="384" border="10" /></a>
+
+
 ## Camera control
 
 ### Syntax
