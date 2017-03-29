@@ -2,6 +2,8 @@
 
 Remote control for Autodesk Fusion 360. Allows to interact with viewer using Natural Language or Speech interface to perform conversation in chat-like mode.
 
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=T74AL_Erq0Y" target="_blank"><img src="http://img.youtube.com/vi/T74AL_Erq0Y/0.jpg" alt="viewer-remote for Autodesk Forge Viewer" width="512" height="384" border="10" /></a>
+
 ## Use cases
 
 - Presentations
