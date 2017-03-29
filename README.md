@@ -17,9 +17,7 @@ Remote control for Autodesk Fusion 360. Allows to interact with viewer using Nat
 
 - Telegram: [Autodesk Fusion Remote](https://t.me/AutodeskFusionRemote_bot) bot
 - Web interface
-- api.ai embedded
-
-[[embed url=https://console.api.ai/api-client/demo/embedded/12f482ce-eb42-4136-90ee-eae8763614db]]
+- api.ai [embedded](https://bot.api.ai/12f482ce-eb42-4136-90ee-eae8763614db)
 
 #### CAD/PDM/PLM
 
