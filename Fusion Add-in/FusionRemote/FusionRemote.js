@@ -2,7 +2,7 @@
 //Description-Chat bot for Autodesk Forge
 
 //socket server 
-var socketServerURL = "https://fusion-remote.herokuapp.com/";
+var socketServerURL = 'https://fusion-remote.herokuapp.com';
 var socketObj = null; 
 
 //command
