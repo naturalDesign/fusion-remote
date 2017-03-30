@@ -6,6 +6,7 @@ Remote control for Autodesk Fusion 360. Allows to interact with viewer using Nat
 
 ## Use cases
 
+- People with disabilities
 - Presentations
 - Hands-free
 - Non-strict interactions
