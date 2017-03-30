@@ -1,6 +1,6 @@
 # Description
 
-Remote control for Autodesk Fusion 360. Allows to interact with viewer using Natural Language or Speech interface to perform conversation in chat-like mode.
+Remote control for [Autodesk Fusion 360](http://www.autodesk.com/products/fusion-360/overview). Allows to interact with viewer using Natural Language or Speech interface to perform conversation in chat-like mode.
 
 This is a part of [Project Vulpix 🦊](http://ndesign.co/solutions/project-vulpix/).
 
