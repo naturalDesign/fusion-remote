@@ -3,6 +3,7 @@
 
 //socket server 
 var socketServerURL = 'https://fusion-remote.herokuapp.com';
+//var socketServerURL = 'https://fusion-remote-miwaniza.c9users.io';
 var socketObj = null; 
 
 //command
