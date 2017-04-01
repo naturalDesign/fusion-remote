@@ -106,7 +106,7 @@ function run(context) {
 					
 					if(socketObj){	
 						 socketObj.off(userName);		
-						 socketObj.on('Fusion JS', function(msg){ 
+						 socketObj.on(userName, function(msg){ 
 							var app = adsk.core.Application.get();
 							var ui = app.userInterface;
                             eval(msg);
