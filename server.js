@@ -16,7 +16,7 @@ app.get('/', function(req, res){
 });
 
 app.post('/hook', function (req, res) {
-	var context=req.body.result.contexts.getElementsByName("name")[0];
+	var context=req.body.result.contexts[0];
 	var email = context.parameters.email;
   io.emit(email, req.body.result.fulfillment.messages[0].speech);
     console.log(req.body.result.fulfillment.messages[0].speech);
@@ -57,7 +57,7 @@ io.on('connection', function(socket){
     });
     
     request.on('response', function(response) {
-		var context=response.body.result.contexts.getElementsByName("name")[0];
+		var context=response.body.result.contexts[0];
 		var email = context.parameters.email;
         io.emit(email, response.result.fulfillment.messages[0].speech);
         console.log(response.result.fulfillment.messages[0].speech);
