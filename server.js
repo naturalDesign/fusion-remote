@@ -19,6 +19,7 @@ app.post('/hook', function (req, res) {
 	var context=req.body.result.contexts[0];
 	var email = context.parameters.email;
   io.emit(email, req.body.result.fulfillment.messages[0].speech);
+	console.log(email+': ');
     console.log(req.body.result.fulfillment.messages[0].speech);
 });
 
