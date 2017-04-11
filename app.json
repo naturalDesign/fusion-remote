@@ -1,0 +1,7 @@
+{
+  "name": "fusion-remote",
+  "description": "Chatbot for Autodesk Fusion 360 with speech recognition",
+  "repository": "https://github.com/naturalDesign/fusion-remote",
+  "logo": "https://raw.githubusercontent.com/naturalDesign/fusion-remote/master/vulpix.png",
+  "keywords": ["node", "javascript", "autodesk", "fusion-360", "chatbot", "nlp", "speech-recognition"]
+}

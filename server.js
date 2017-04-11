@@ -41,15 +41,15 @@ io.on('connection', function(socket){
   });
 });
 
-io.on('connection', function(socket){
-  socket.broadcast.emit('hi');
-});
+// io.on('connection', function (socket) {
+//   socket.broadcast.emit('hi');
+// });
 
-io.on('connection', function(socket){
-  socket.on('chat message', function(msg){
-    io.emit('chat message', msg);
-  });
-});
+// io.on('connection', function (socket) {
+//   socket.on('chat message', function (msg) {
+//     io.emit('chat message', msg);
+//   });
+// });
 
 io.on('connection', function(socket){
   socket.on('chat message', function(msg){
@@ -57,12 +57,12 @@ io.on('connection', function(socket){
         sessionId: 'uid'
     });
     
-    request.on('response', function(response) {
-		var context=response.body.result.contexts[0];
-		var email = context.parameters.email;
-        io.emit(email, response.result.fulfillment.messages[0].speech);
-        console.log(response.result.fulfillment.messages[0].speech);
-    });
+    //request.on('response', function(response) {
+		//var context=response.body.result.contexts[0];
+		//var email = context.parameters.email;
+    //    io.emit(email, response.result.fulfillment.messages[0].speech);
+    //    console.log(response.result.fulfillment.messages[0].speech);
+    //});
     
     request.on('error', function(error) {
         console.log(error);

@@ -130,6 +130,10 @@ Fits all model to view
 
 # Installation and usage
 
+Feell free to deploy this project on Heroku:
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+
 Save plug-in locally and add it from the **Scripts and Add-ins** menu.
 
 Launch it and set a tick to enable remote control.
